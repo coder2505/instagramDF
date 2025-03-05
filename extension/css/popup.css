@@ -1,0 +1,47 @@
+body{
+    min-width: 400px;
+    min-height:400px;
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stack items vertically */
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+}
+
+h1{
+    margin-right: auto;
+    margin-left: auto;
+    color: whitesmoke;
+}
+
+button{
+   border-radius: 5px;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+.holder_custom{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(164, 0, 0);
+}
+
+.checkbox_end{
+    display: inline;
+}
+
+.top{
+    margin-top: 10vh;
+}
+
+.notTop{
+    margin-top:3vh;
+}
+
+.description_custom{
+    text-align: left;
+    display:inline;
+    color:whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
